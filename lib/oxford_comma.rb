@@ -4,6 +4,6 @@ if array.size == 2
   elsif array.size > 2
   array.join(", ")
 else
-  array
+  array.join
 end
 end
